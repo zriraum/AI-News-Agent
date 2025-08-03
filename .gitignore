@@ -1,0 +1,44 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+venv/
+.env/
+.env
+
+# VSCode settings
+.vscode/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Mac/Linux/Windows OS files
+.DS_Store
+Thumbs.db
+
+# Log files and local DBs
+*.log
+*.sqlite3
+
+# Pip requirements
+pip-wheel-metadata/
+
+# PyInstaller
+*.spec
+
+# Test coverage reports
+htmlcov/
+coverage.xml
+.cache/
+
+# MyPy
+.mypy_cache/
+
+# Secret config
+.env
