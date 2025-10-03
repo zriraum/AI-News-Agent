@@ -9,9 +9,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 llm = ChatOpenAI(
-        api_key=os.getenv("OPENROUTER_API_KEY"),
-        base_url=os.getenv("OPENROUTER_BASE_URL"),
-        model="openrouter/horizon-beta" 
+        api_key=os.getenv("OPENAI_API_KEY"),
+        model="gpt-4.1-mini"
 )
 
 tavily = TavilyClient(api_key=os.getenv("TAVILY_API_KEY"))
