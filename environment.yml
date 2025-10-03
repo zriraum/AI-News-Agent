@@ -1,0 +1,4 @@
+name: GenAI
+channels:
+  - defaults
+prefix: C:\Users\welcome\anaconda3\envs\GenAI
